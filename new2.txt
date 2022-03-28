@@ -1,0 +1,15 @@
+pwd
+sudo apt update
+sudo apt upgrade -y
+sudo apt upgrade vim -y
+sudo apt install git -y
+sudo git clone https://opendev.org/openstack/devstack
+sudo apt install gcc -y
+vi hello.c
+gedit hello.c
+gcc -o hello hello.c
+./hello
+
+sudo apt install openssh-server -y
+touch dac.out
+scp dac.out dac@192.168.160.140:/home/dac/Desktop
